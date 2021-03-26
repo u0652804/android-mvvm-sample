@@ -4,6 +4,7 @@
 ## sop - A new android project to a new github Repository
 
 1. Android studio create new project
+ 
  when project created, .gitignore was generated
 
 2. let project as a new github repository
