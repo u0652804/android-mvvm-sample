@@ -1,4 +1,4 @@
-package com.example.arccomponetssample.model.remote;
+package com.example.arccomponetssample.model.remote.todos;
 
 import com.example.arccomponetssample.model.data.Todos;
 

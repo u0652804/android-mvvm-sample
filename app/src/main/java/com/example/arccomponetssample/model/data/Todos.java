@@ -1,4 +1,4 @@
-package com.example.arccomponetssample.model;
+package com.example.arccomponetssample.model.data;
 
 public class Todos {
     private float userId;
