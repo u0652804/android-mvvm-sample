@@ -20,3 +20,26 @@
        github : click 'tokenName' to setting > add not supported permissions > Update token > back to Android studio
 
        Android studio : log in > edit repositoryName(e.g. android-mvvm-sample), remote, Description > Add
+       
+## sop2 - use this template project to start a new application       
+
+1. clone this project from github
+
+2. execute copy_android_project.bat 
+
+ps:
+ powershell -Command "(gc test\settings.gradle) -replace 'arcComponetsSample', '$projectName' | Out-File test\settings.gradle"
+ 這行會出錯無法加到 bat
+
+3. Android Studio open this project
+
+4. 
+ a. Gradle Scripts > settings.gradle : 
+  replace 'arcComponetsSample' to $projectName e.g. 'test'
+ b. shift + F6 to rename package
+ c. AndroidManifest.xml : rename style/Theme => $projectName
+ d. build.gradle : applicationId arccomponetssample => $projectName
+ 
+5. add to git by refering SOP document(sop - A new android project to a new github Repository)
+
+6. run this project
