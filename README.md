@@ -44,3 +44,19 @@
 5. add to git by refering SOP document(sop - A new android project to a new github Repository)
 
 6. run this project
+
+## sop3 - Develop tips and tool
+
+1. Create data model with tool
+
+webTool : https://codebeautify.org/json-to-java-converter
+
+when use tool to generate class, please 
+
+ - change root key as your class name of data model
+ - use @SerializedName method for gson convertion
+ 
+ e.g. key is data, but generate var is Data. 
+
+    @SerializedName("data")
+    Data DataObject;
