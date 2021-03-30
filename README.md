@@ -51,6 +51,8 @@
 
 webTool : https://codebeautify.org/json-to-java-converter
 
+copy json data {"..."} to paste and conver to class code
+
 when use tool to generate class, please 
 
  - change root key as your class name of data model
