@@ -62,3 +62,19 @@ when use tool to generate class, please
 
     @SerializedName("data")
     Data DataObject;
+
+2. References about Restful method
+
+ - Add access token : https://stackoverflow.com/questions/41078866/retrofit2-authorization-global-interceptor-for-access-token
+ - Process exception about Retrofit : https://jefflin1982.medium.com/android-%E9%97%9C%E6%96%BCretrofil%E7%9A%84%E5%85%B6%E4%BB%96%E5%B0%8F%E4%BA%8B%E6%83%85-587609eb27e5 
+ - Fix http request : https://stackoverflow.com/questions/39933345/no-network-security-config-specified-using-platform-default-android-log
+ - Reference of Retrofit : https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token
+
+3. Command of Windows terminal 
+
+ - replace keyword in file : https://www.generacodice.com/en/articolo/30745/How-can-you-find-and-replace-text-in-a-file-using-the-Windows-command-line-environment?
+
+
+4. git command
+
+ - git command auth firstly(pw is accessToken) : https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token
