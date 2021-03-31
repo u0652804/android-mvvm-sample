@@ -101,4 +101,24 @@ build.gradle
         buildFeatures {
             viewBinding true
         }
+
+step 2. set will not generate class
+
+$layout.xml
  
+    tools:viewBindingIgnore="true"
+    
+step 3. Manu action to avoid view class not generated
+
+build > clean Project > Rebuild Project    
+
+step 4. use view binding
+
+    private ActivityMainBinding binding;
+
+    binding = ActivityMainBinding.inflate(getLayoutInflater());
+    View view = binding.getRoot();
+    setContentView(view);
+    
+    binding.elementName.method
+
