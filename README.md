@@ -78,3 +78,27 @@ when use tool to generate class, please
 4. git command
 
  - git command auth firstly(pw is accessToken) : https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token
+
+
+5. 
+
+a. View Binding
+
+desc : replace findViewById and ButterKnife
+
+references : 
+
+ - https://developer.android.com/topic/libraries/view-binding
+ - https://iter01.com/519924.html
+
+step 1. config 
+
+build.gradle
+
+    android {
+    ...
+        // view binding setup
+        buildFeatures {
+            viewBinding true
+        }
+ 
